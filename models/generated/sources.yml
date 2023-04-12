@@ -1,0 +1,14 @@
+version: 2
+sources:
+- name: public
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_stats_countries
+  - name: _airbyte_raw_stats_stations
+  - name: _airbyte_raw_stats_z_messages_parent
+  - name: _airbyte_raw_stats_z_gts_parent
+  - name: _airbyte_raw_stats_z_reports_parent
+  - name: _airbyte_raw_stats_z_txacknowledgements_parent

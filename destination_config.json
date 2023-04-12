@@ -1,0 +1,1 @@
+{"ssl":false,"host":"127.0.0.1","port":5433,"schema":"public","database":"BI","password":"meteo@123","username":"comm_admin","tunnel_method":{"tunnel_method":"NO_TUNNEL"}}

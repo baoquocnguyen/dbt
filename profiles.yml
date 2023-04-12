@@ -1,0 +1,17 @@
+config:
+  partial_parse: true
+  printer_width: 120
+  send_anonymous_usage_stats: false
+  use_colors: true
+normalize:
+  outputs:
+    prod:
+      dbname: odb-stats
+      host: 127.0.0.1
+      pass: meteo@123
+      port: 5433
+      schema: public
+      threads: 8
+      type: postgres
+      user: comm_admin
+  target: prod
